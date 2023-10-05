@@ -1,14 +1,12 @@
 package Project_1;
 
-import Project_1.Node;
-
 public class LargeNumberCalculator {
 
-    private static class ListNode{
+    private static class Node{
         int digit;
         Node next;
 
-        public ListNode(int digit){
+        public Node(int digit){
             this.digit = digit;
             this.next = null;
         }
