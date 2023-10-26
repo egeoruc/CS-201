@@ -11,7 +11,6 @@ public class LargeNumberCalculator {
         while (head1 != null || head2 != null) {
             int num1Digit = (head1 != null) ? head1.getData() : 0;
             int num2Digit = (head2 != null) ? head2.getData() : 0;
-            
             int sum = num1Digit + num2Digit + carry;
             carry = sum / 10;
             sum = sum % 10;
@@ -65,7 +64,6 @@ public class LargeNumberCalculator {
             }
         }
     
-    
         return result;
     }
     
@@ -96,8 +94,8 @@ public class LargeNumberCalculator {
         Node dig1Node= new Node(9);
         Node dig3Node = new Node(8);
         Node dig2Node= new Node(9);
-        LinkedList num3= new LinkedList(989);
-        LinkedList num4= new LinkedList(90);
+        LinkedList num3= new LinkedList(980);
+        LinkedList num4= new LinkedList(19);
         
 
             
