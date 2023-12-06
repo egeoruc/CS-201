@@ -179,6 +179,7 @@ public class LargeNumbersCalculator {
         test.divideNumbers(number4_2, number4_1).Reversed();
         //Because of my division method my code doesn't work if number1 exactly multiple of number2
 
+        int tested = 0 ;
 
 
     }
