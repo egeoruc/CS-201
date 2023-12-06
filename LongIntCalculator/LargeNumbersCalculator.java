@@ -1,4 +1,4 @@
-package long-int-arithmetic;
+package LongIntCalculator;
 
 public class LargeNumbersCalculator {
 

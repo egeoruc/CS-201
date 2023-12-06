@@ -1,4 +1,4 @@
-package long-int-arithmetic;
+package LongIntCalculator;
 
 import static java.lang.Character.getNumericValue;
 
